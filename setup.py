@@ -52,5 +52,5 @@ setup(
 
     classifiers=list(filter(None, classifiers.split('\n'))),
     description='Facilitates automated and reproducible experimental research',
-    long_description=open('README.rst').read()
+    long_description=open('README.rst', encoding='UTF8').read()
 )
